@@ -9,7 +9,7 @@ favExercises.onshow = function() {
   for (i = 0; i <= coreExercises.length - 1; i++)
     selExercises.addItem(coreExercises[i])
 }
-//  onfocusout
+
 
 btnDone.onclick = function() {
   if (selExercises.text.length == 2) {
@@ -26,4 +26,7 @@ btnDone.onclick = function() {
     lblExercises.value = "You did not pick the two core exercises."
     }
 
+}
+btnToNav.onclick=function(){
+  ChangeForm(mobileNav)
 }

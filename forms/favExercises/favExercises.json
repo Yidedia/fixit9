@@ -36,6 +36,15 @@
         "Elements",
         "lblExercises.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "favExercises",
+        "Elements",
+        "btnToNav.json"
+      ]
     }
   ],
   "class": "",
