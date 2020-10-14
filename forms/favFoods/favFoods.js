@@ -1,9 +1,12 @@
 let goodFoods = ["pizza","apples","cookies","sushi","pasta","steak"]
 
-ddf.onshow=function(){
-    // always clear before populating
-    ddf.clear()   
-    // put array of food in the dropdown (called populating it)
-    for (i = 0; i <= goodFoods.length - 1; i++) 
-        ddf.addItem(goodFoods[i])
+llf.onclick=function(s){  // notice the 's' parameter. This is the index
+  if (typeof(s) == "object") {// user clicked the control
+    return
+  } else {
+      let textChoice = NSB.$("llf_" + s).textContent
+      console.log(`The item number of the choice is ${s} and the text is ${textChoice}`)
+      
+       llf.addItem("Garbanzo","active","default")
+ }
 }

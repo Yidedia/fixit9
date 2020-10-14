@@ -16,15 +16,6 @@
         "forms",
         "favFoods",
         "Elements",
-        "ddf.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "favFoods",
-        "Elements",
         "ffh.json"
       ]
     },
@@ -35,6 +26,15 @@
         "favFoods",
         "Elements",
         "ffo.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "favFoods",
+        "Elements",
+        "llf.json"
       ]
     }
   ],
